@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 9000
+    onOpen: ignore
+  - port: 8000
+    visibility: public
+tasks:
+  - init: |
+      mysql -u root -e "create database php" && git config --global http.sslverify false
+    command: |
+      php -S localhost:8000
+  - name: Redis Server
+    command: redis-server
