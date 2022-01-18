@@ -10,4 +10,4 @@ $speed = 103.8;
 //arrays ---> are a colection of data store in a single variable
 $human = ["John", "28", 2.4,false];
 
-echo $boolean;//outputs one
+echo $boolean;//outputs 1
