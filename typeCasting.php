@@ -13,3 +13,4 @@
 #   3. Special Types
         #resource
         #null
+$var = null;
