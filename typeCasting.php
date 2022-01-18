@@ -1,0 +1,2 @@
+<?php
+//Typecasting in PHP
