@@ -22,9 +22,9 @@ $test = array(
         'job'=>programmer,
         'No. Friends'=>56,
     ),
-    'Raila'=>26,
+    array('Raila'=>26,
     'Ruto'=>45,
-    'Musalia' => 70
+    'Musalia' => 70)
 );
 var_dump($test);
 //echo "<br>Kalonzo is ".$arrays['Kalonzo']['Kalonzo']." years old";
