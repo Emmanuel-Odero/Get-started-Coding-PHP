@@ -10,9 +10,8 @@ $query = "SELECT * FROM users";
 $results=$db_connection->query($query);
 $db_connection = NULL;
 foreach($results as $result){
-    echo $result['name'];
-    echo $result['email'];
-    echo $result['country'];
-    echo $result['currency'];
+    echo $result['Names']." - ".$result['email']." - ".$result['country']." - ".$result['currency'];
+    // echo $result['country'];
+    // echo $result['currency'];
     echo "<br>";
 }
