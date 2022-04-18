@@ -16,7 +16,7 @@ var_dump($namesG);
 echo "<br>" .$namesG['Willis']."<br>";*/
 //multidimensional Arrays
 $test = array(
-    'Kalonzo' => array(
+    'Kalekye' => array(
         'age'=>29,
         'height'=>1.83,
         'job'=>programmer,
