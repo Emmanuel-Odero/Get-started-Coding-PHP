@@ -18,11 +18,14 @@ services:
         networks:
             - dev-network
 
-    mariadb:
-        image: mariadb
+    db:
+        image: mysql:5.7
         environment:
-         - MYSQL_ROOT_PASSWORD=vagrant
-         - MYSQL_DATABASE=vagrant
+         - MYSQL_ROOT_PASSWORD: password
+         - MYSQL_DATABASE: root
+         - MYSQL_USER: root
+         - MYSQL_PASSWORD: root
+
         ports:
           - "3306:3306"
         volumes:
@@ -31,12 +34,16 @@ services:
             - dev-network
 
     phpmyadmin:
-        image: phpmyadmin
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
         restart: always
         ports:
           - 8081:80
         environment:
-          - PMA_ARBITRARY=1
+          - PMA_ARBITRARY= 1
+          - MYSQL_ROOT_PASSWORD= password
+        networks:
+            - dev-network
 
     beanstalkd:
         image: hellossx/beanstalkd
