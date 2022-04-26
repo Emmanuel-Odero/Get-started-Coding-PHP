@@ -36,12 +36,11 @@
                 <div class="col-sm-10">
                   <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">
                 </div>
-
+                </div>
                 <div class="form-group">
                 <div class="col-sm-10">
                   <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
                 </div>
-              </div>
               <div class="form-group">
                 <div class="col-sm-10">
                   <button type="submit" class="btn btn-info">
