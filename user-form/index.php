@@ -11,7 +11,7 @@
 
   <div class="jumbotron text-center" style="min-height:400px;height:auto;">
     <div class="col-md-10 col-md-offset-2">
-        <form class="form-horizontal" role="form">
+        <form action="" method="post" class="form-horizontal" role="form">
             <div class="form-group text-center">
                 <div class="col-sm-10 reg-icon">
                     <span class="fa fa-user fa-3x">Sign up</span>
@@ -19,22 +19,27 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="name" placeholder="Name">
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Name">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  <input type="email" class="form-control" name="email" id="inputEmail3" placeholder="Email">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="Username" placeholder="Username">
+                  <input type="email" class="form-control" name="userName" id="Username" placeholder="Username">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
                 </div>
               </div>
               <div class="form-group">
