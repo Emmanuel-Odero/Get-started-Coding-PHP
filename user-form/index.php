@@ -41,6 +41,12 @@
                 <div class="col-sm-10">
                   <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
                 </div>
+                </div>
+                <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="recoveryPhrase" placeholder="Put your recovery Phrase">
+                </div>
+                </div>
               <div class="form-group">
                 <div class="col-sm-10">
                   <button type="submit" class="btn btn-info">
@@ -53,4 +59,5 @@
     </div>
   </div>
 </div>
+<?php include('./database/migrations/users-table.php')?>
 <?php include('./footer.php')?>
