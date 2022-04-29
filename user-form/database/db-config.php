@@ -1,7 +1,7 @@
 <?php
 
 $db_host = 'localhost';
-$db_name = 'test';
+$db_name = 'author';
 $db_username = 'root';
 $db_password = '';
 $dsn = "mysql:host=$db_host; dbname=$db_name";
