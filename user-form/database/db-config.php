@@ -11,6 +11,6 @@ try {
     $db_connection = new PDO($dsn, $db_username, $db_password);
 } catch (exception $e) {
     //throw $e
-    echo "There is a database connection error on our side. <br> Possible error could be: ". 
-    $e->getMessage(). "</br>";
+    echo "Sorry the error is on ourside. <br> Possible error could be: ". 
+    $e->getMessage(). "</br> You can report it here <a>report</a>";
 }
