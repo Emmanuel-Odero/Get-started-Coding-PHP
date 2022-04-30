@@ -16,5 +16,5 @@ switch ($color) {
 }
 ?>
 <body style="background-color:<?php echo $color; ?>">
-The background color is <?php echo $color;?>
+Your background color is <?php echo $color;?>
 </body>
