@@ -1,5 +1,5 @@
 image:
-  file: .gitpod.Dockerfile
+  file: .gitpod.Dockerfile #if docker file is available and if runnning in gitpod
 ports:
   - port: 9000
     onOpen: ignore
